@@ -12,8 +12,9 @@ Le 04/10/2023 - #Séance3
 
 Une séance bien chargée,c'est costaud. Quand les profs expliquent les commandes pour annuler les commits, j'ai compris mais quant à la mise en pratique dans les exos, je suis perdue! L'utlisation de la commande git reset pour annuler le commit était bonne, mais le reste est à encore comprendre/maitriser.
 
-# séance 3
+Le 09/10/2023 - Exercice Git
 
+J'ai essayé de le faire mais je pense qu'il y a encore des confusions. Arevoir!
 
 
 
