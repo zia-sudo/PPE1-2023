@@ -6,7 +6,7 @@ Le 27/09/2023 - #Séance2
 
 Pendant le cours, on a essayé créé une clé SSH (une clé pulique et une privée) pour Git, à l'aide de "ssh-keygen -t ed25519" de première vue, ça a l'air bien complexe. Nous avons également appris à clone des dépôts, à actualiser le dépôt, tout ça a été compris sur le moment, mais à pratiquer. 
 
-J'ai essayé de faire l'exercice "Fichiers", je me suis rendue compte que j'ai encore un peu de difficultés avec les commandes Bash car j'ai encore besoin de vérifier leur utilité et utilisation (à part pour les commandes cd et ls). Les commandes utilisées pour l'exercice sont "mv", "mkdir", "cd", "ls". Avec cet exercice, je me sens un peu mieux avec ces commandes utilsées, mais à revoir de temps en temps pour ne pas oublier. Avec "mkdir", j'ai appris qu'on peut créer plusieurs répertoires à la fois.
+J'ai essayé de faire l'exercice "Fichiers", je me suis rendue compte que j'ai encore un peu de difficultés avec les commandes Bash car j'ai encore besoin de vérifier leur utilité et utilisation (à part pour les commandes cd et ls). Les commandes utilisées pour l'exercice sont "mv", "mkdir", "cd", "ls". Avec cet exercice, je me sens un peu mieux avec ces commandes utilsées, mais à revoir de temps en temps pour ne pas oublier. Avec "mkdir", j'ai appris qu'on peut créer plusieurs répertoires à la fois. Pour déplacer les images dans le bon dossier, au début j'ai mis Pairs*, mais cela sélectionne seulement les fichiers nommés Paris_... mais pas tous ceux qui contiennet le nom "Paris", en fait il faut utiliser "*Paris*".
 
 Le 04/10/2023 - #Séance3
 
