@@ -1,0 +1,147 @@
+  461  cd ../Exercice
+  462  unzip fichiers.zip
+  463  cd fichier
+  464  cd fichiers
+  465  cd Fichiers/
+  466  ls
+  467  mkdir txt ann img docs
+  468  cd txt
+  469  mkdir 2016 2017
+  470  ls
+  471  mkdir 01 02 03 04 05 06 07 08 09 10 11 12
+  472  mv 01 02 03 04 05 06 07 08 09 10 11 12 ./2016
+  473  ls
+  474  cd 2016
+  475  ls
+  476  cd ../
+  477  cd 2017
+  478  mkdir 01 02 03 04 05 06 07 08 09 10 11 12
+  479  cd ../..
+  480  mv 2016_01_*.txt txt/2016/01
+  481  mv 2016_02_*.txt txt/2016/02
+  482  mv 2016_03_*.txt txt/2016/03
+  483  mv 2016_04_*.txt txt/2016/04
+  484  mv 2016_05_*.txt txt/2016/05
+  485  mv 2016_06_*.txt txt/2016/06
+  486  mv 2016_07_*.txt txt/2016/07
+  487  mv 2016_08_*.txt txt/2016/08
+  488  mv 2016_09_*.txt txt/2016/09
+  489  mv 2016_10_*.txt txt/2016/10
+  490  mv 2016_11_*.txt txt/2016/11
+  491  mv 2016_12_*.txt txt/2016/12
+  492  mv 2017_01_*.txt txt/2017/01
+  493  mv 2017_02_*.txt txt/2017/02
+  494  mv 2017_03_*.txt txt/2017/03
+  495  mv 2017_04_*.txt txt/2017/04
+  496  mv 2017_05_*.txt txt/2017/05
+  497  mv 2017_06_*.txt txt/2017/06
+  498  mv 2017_07_*.txt txt/2017/07
+  499  mv 2017_08_*.txt txt/2017/08
+  500  mv 2017_09_*.txt txt/2017/09
+  501  mv 2017_10_*.txt txt/2017/10
+  502  mv 2017_11_*.txt txt/2017/11
+  503  mv 2017_12_*.txt txt/2017/12
+  504  cd txt/
+  505  ls
+  506  mkdir 2018
+  507  cd ../..
+  508  cd Fichiers/
+  509  mv 2018_12_*.txt txt/2018/12
+  510  cd txt/2018
+  511  mkdri 01 02 03 04 05 06 07 08 09 10 11 12
+  512  mkdrir 01 02 03 04 05 06 07 08 09 10 11 12
+  513  mkdir 01 02 03 04 05 06 07 08 09 10 11 12
+  514  cd ../..
+  515  mv 2018_12_*.txt txt/2018/12
+  516  mv 2018_11_*.txt txt/2018/11
+  517  mv 2018_10_*.txt txt/2018/10
+  518  mv 2018_09_*.txt txt/2018/09
+  519  mv 2018_08_*.txt txt/2018/08
+  520  mv 2018_07_*.txt txt/2018/07
+  521  mv 2018_06_*.txt txt/2018/06
+  522  mv 2018_05_*.txt txt/2018/05
+  523  mv 2018_04_*.txt txt/2018/04
+  524  mv 2018_03_*.txt txt/2018/03
+  525  mv 2018_02_*.txt txt/2018/02
+  526  mv 2018_01_*.txt txt/2018/01
+  527  cd ann/
+  528  mkdir 2016 2017 2018
+  529  cd 2016
+  530  mkdir 01 02 03 04 05 06 07 08 09 10 11 12
+  531  cd ../
+  532  cd 2017
+  533  mkdir 01 02 03 04 05 06 07 08 09 10 11 12
+  534  cd ../
+  535  cd 2018
+  536  mkdir 01 02 03 04 05 06 07 08 09 10 11 12
+  537  cd ../..
+  538  mv 2016_01_*.ann ann/2016/01
+  539  mv 2016_02_*.ann ann/2016/02
+  540  mv 2016_03_*.ann ann/2016/03
+  541  mv 2016_04_*.ann ann/2016/04
+  542  mv 2016_05_*.ann ann/2016/05
+  543  mv 2016_06_*.ann ann/2016/06
+  544  mv 2016_07_*.ann ann/2016/07
+  545  mv 2016_08_*.ann ann/2016/08
+  546  mv 2016_09_*.ann ann/2016/09
+  547  mv 2016_10_*.ann ann/2016/10
+  548  mv 2016_11_*.ann ann/2016/11
+  549  mv 2016_12_*.ann ann/2016/12
+  550  mv 2017_12_*.ann ann/2017/12
+  551  mv 2016_17_*.ann ann/2017/12
+  552  mv 2017_12*.ann ann/2017/12
+  553  mv 2017_12_*.ann ann/2017/12
+  554  mv 2017_11_*.ann ann/2017/11
+  555  mv 2017_10_*.ann ann/2017/10
+  556  mv 2017_09_*.ann ann/2017/09
+  557  mv 2017_08_*.ann ann/2017/08
+  558  mv 2017_07_*.ann ann/2017/07
+  559  mv 2017_06_*.ann ann/2017/06
+  560  mv 2017_05_*.ann ann/2017/05
+  561  mv 2017_04_*.ann ann/2017/04
+  562  mv 2017_03_*.ann ann/2017/03
+  563  mv 2017_02_*.ann ann/2017/02
+  564  mv 2017_01_*.ann ann/2017/01
+  565  mv 2018_01_*.ann ann/2018/01
+  566  mv 2018_02_*.ann ann/2018/02
+  567  mv 2018_03_*.ann ann/2018/03
+  568  mv 2018_05_*.ann ann/2018/04
+  569  cd ann/2018
+  570  mv 2018_05_*.ann ann/2018/05
+  571  cd 04
+  572  mv 2018_05_*.ann ann/2018/05
+  573  mv 2018_05_*.ann ./05
+  574  mv 2018_05_*.ann ../05
+  575  cd ../../../
+  576  mv 2018_04_*.ann ann/2018/04
+  577  mv 2018_06_*.ann ann/2018/06
+  578  mv 2018_07_*.ann ann/2018/07
+  579  mv 2018_08_*.ann ann/2018/08
+  580  mv 2018_09_*.ann ann/2018/09
+  581  mv 2018_10_*.ann ann/2018/10
+  582  mv 2018_11_*.ann ann/2018/11
+  583  mv 2018_12_*.ann ann/2018/12
+  584  cd img
+  585  mkdir Japon Paris
+  586  cd ../
+  587  mv Paris*.jpg img/Paris
+  588  mv *Paris*.jpg img/Paris
+  589  mv *Tokyo*.jpg img/Tokyo
+  590  mv *Tokyo*.jpg img/Japon
+  591  mv *Japon*.jpg img/Japon
+  592  mv *Kyoto*.jpg img/Japon
+  593  mv *Japan*.jpg img/Japon
+  594  mv *Kinkaku*.jpg img/Japon
+  595  mv Cite*.jpg img/Japon
+  596  mv *Cite*.jpg img/Paris
+  597  mv Golden*.jpg img/Paris
+  598  rm damier.bmp test.wav
+  599  cd ../
+  600  rmdir fichier.zip
+  601  rmdir fichiers.zip
+  602  rm fichiers.zip
+  603  ~/.bashrc
+  604  cd ../../../
+  605  cd ../
+  606  ~/.bashrc
+  607  history
