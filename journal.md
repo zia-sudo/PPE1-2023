@@ -16,6 +16,9 @@ Le 09/10/2023 - Exercice Git
 
 J'ai essayé de le faire mais je pense qu'il y a encore des confusions. Mais j'ai réussi à modifier mon journal depuis le terminal (nano).
 
-Le 11/10/2023 - Exercice Git
+Le 11/10/2023
 
-La suite de l'excercice
+Un message
+
+
+
