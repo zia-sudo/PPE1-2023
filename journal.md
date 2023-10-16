@@ -26,7 +26,10 @@ git reset HEAD-1 #si pas push, défaire le dernier commit sans le pousser vers l
 
 A la deuxième partie du cours, nous avons vu les pipelines et la redirection vers des fichiers. On s'est entraîné, de ce fait, sur les commandes cat, wc ainsi que les chevrons(simple ou double).
 
-On a ensuite essayé de faire des scripts Shell pour ensuite l'appeler. 
+On a ensuite essayé de faire des scripts Shell pour ensuite l'appeler.
+
+Nous avons également discuté sur le mot que nous devons choisir pour le projet, il y a déjà eu quelques pistes: égalité, intelligence artificielle, etc.
+
 
 
 
