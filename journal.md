@@ -16,9 +16,17 @@ Le 09/10/2023 - Exercice Git
 
 J'ai essayé de le faire mais je pense qu'il y a encore des confusions. Mais j'ai réussi à modifier mon journal depuis le terminal (nano).
 
-Le 11/10/2023
+Le 11/10/2023 - Séance 4
 
-Un message
+Je pense avoir compris l'utilisation de Git, surtout de Git tag car pour les trois première séances je mettais manuellement les tags sur Github mais maintenant j'ai compris que c'est grâce à la commande git tag -a -m "". Je vais donc essayer de faire un tag après avoir édité le journal du jour.
+Durant la 1ère partie de la séance, nous avons corrigé les exercices Git.
+git log #affiche l'historique des commits dans votre dépôt Git
+git revert <commit_hash> #annuler un commit spécifique
+git reset HEAD-1 #si pas push, défaire le dernier commit sans le pousser vers le dépôt distant
+
+A la deuxième partie du cours, nous avons vu les pipelines et la redirection vers des fichiers. On s'est entraîné, de ce fait, sur les commandes cat, wc ainsi que les chevrons(simple ou double).
+
+On a ensuite essayé de faire des scripts Shell pour ensuite l'appeler. 
 
 
 
