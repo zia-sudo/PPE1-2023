@@ -28,6 +28,5 @@ A la deuxième partie du cours, nous avons vu les pipelines et la redirection ve
 
 On a ensuite essayé de faire des scripts Shell pour ensuite l'appeler. 
 
-J'esssaie de mettre un message error
 
 
