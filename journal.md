@@ -18,7 +18,7 @@ J'ai essayé de le faire mais je pense qu'il y a encore des confusions. Mais j'a
 
 Le 11/10/2023 - Séance 4
 
-Je pense avoir compris l'utilisation de Git, surtout de Git tag car pour les trois première séances je mettais manuellement les tags sur Github mais maintenant j'ai compris que c'est grâce à la commande git tag -a -m "". Je vais donc essayer de faire un tag après avoir édité le journal du jour.
+Je pense avoir compris l'utilisation de Git, surtout de Git tag car pour les trois première séances je mettais manuellement les tags dans le journal sur Github mais maintenant j'ai compris que c'est grâce à la commande git tag -a -m "". Je vais donc essayer de faire un tag après avoir édité le journal du jour.
 Durant la 1ère partie de la séance, nous avons corrigé les exercices Git.
 git log #affiche l'historique des commits dans votre dépôt Git
 git revert <commit_hash> #annuler un commit spécifique
@@ -30,6 +30,7 @@ On a ensuite essayé de faire des scripts Shell pour ensuite l'appeler.
 
 Nous avons également discuté sur le mot que nous devons choisir pour le projet, il y a déjà eu quelques pistes: égalité, intelligence artificielle, etc.
 
-
+Le 16/10/2023 - suite Git
+Après plusieurs essais, je pense que j'ai maîtrisé le git tag. En fait, pour les autres fois après avoir utilisé "git tag -a '' -m ''", j'ai juste fait git push au lieu de git push origin NomduTag.
 
 
