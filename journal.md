@@ -16,7 +16,7 @@ Le 09/10/2023 - Exercice Git
 
 J'ai essayé de le faire mais je pense qu'il y a encore des confusions. Mais j'ai réussi à modifier mon journal depuis le terminal (nano).
 
-Le 11/10/2023 - Séance 4
+Le 11/10/2023 - #Séance 4
 
 Je pense avoir compris l'utilisation de Git, surtout de Git tag car pour les trois première séances je mettais manuellement les tags dans le journal sur Github mais maintenant j'ai compris que c'est grâce à la commande git tag -a -m "". Je vais donc essayer de faire un tag après avoir édité le journal du jour.
 Durant la 1ère partie de la séance, nous avons corrigé les exercices Git.
@@ -33,4 +33,15 @@ Nous avons également discuté sur le mot que nous devons choisir pour le projet
 Le 16/10/2023 - suite Git
 Après plusieurs essais, je pense que j'ai maîtrisé le git tag. En fait, pour les autres fois après avoir utilisé "git tag -a '' -m ''", j'ai juste fait git push au lieu de git push origin NomduTag.
 
+Le 18/10/2023 - #Séance 5
 
+Notre groupe est composé de Perrine, Yuanlong et moi. Nous avons décidé de choisir le français, le chinois et l'anglais comme langues. Nous avons également réfléchi sur le choix de mots, nous avons fait deux listes de mots: Nous avons soigneusement réfléchi au choix des termes sur lesquels nous allons nous concentrer. Nous avons dressé une liste de mots potentiels dans différentes langues et domaines :    Dans le discours politique en français, chinois et anglais, nous envisageons d'explorer le concept de "liberté". Pour les rapports environnementaux, "réchauffement climatique" et "durabilité" sont des termes que nous considérons. Dans le contexte technologique, "intelligence artificielle" pourrait être une option intéressante. Pour les discussions sur l'égalité entre hommes et femmes, le mot "égalité" nous intrigue. Dans le monde des médias sociaux, "influenceur" est un terme à explorer. La notion de "vegan" dans la presse et les médias sociaux est également une possibilité."Télétravail" pourrait être pertinent dans le contexte actuel des médias et de la presse. Enfin, le terme "violence" est un sujet d'importance dans les médias et les réseaux sociaux. 
+Nous comprenons que les termes "liberté" et "égalité" sont des choix courants, et nous souhaitons peut-être explorer des thèmes plus originaux. Nous sommes ouverts à d'autres suggestions, mais pour l'instant, ces mots constituent notre liste préliminaire.
+La deuxième liste: Technologie (Technology, 技术) Environnement (Environment, 环境) genre les changements climatiques Santé (Health, 健康, Santé)  Éducation (Education, 教育) Économie (Economy, 经济) Immigration (Immigration, 移民) Cybersécurité (Cybersecurity, 网络安全) ou Cyberattaques (Cyberattacks, 网络攻击) Désinformation (Disinformation, 虚假信息)
+Nous allons essayer de trouver le mot du projet assez rapidement.
+
+Pendnat le cours, nous avons corrigé les exos portant sur les scripts exécutables. Nous avons également vu les instructions de contrôle, comme if, while, for. Nous avons également vu les différentes conditions possibles pour les insctructions conditionnelles. La validation des arguments nous permet de savoir si toutes les conditions sont réunies pour exécuter le script.
+Dans la deuxième partie de la séance 5, nous avons vu les notions à propos du HTML et des codes HTTP. Nous avons également découvert lynx qui est un navigateur web en terminal qui permet également de récupéper une page web sous format txt. Exemple: lynx -dump plurital.org > ./Downloads/M1_TAL_S1/PPE/M1.txt.
+Nous avons également vu la commande curl qui permet de faire la même chose que lynx, et elle permet également de donner des informations sur l'entête si la page est OK HTTP/1.1 XZY <message> et son encodage content-type: <informations>.
+
+A propos de Git, je me suis plus à l'aise avec cet outil, add, push, commit, et tag etc.
