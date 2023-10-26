@@ -45,3 +45,8 @@ Dans la deuxième partie de la séance 5, nous avons vu les notions à propos du
 Nous avons également vu la commande curl qui permet de faire la même chose que lynx, et elle permet également de donner des informations sur l'entête si la page est OK HTTP/1.1 XZY <message> et son encodage content-type: <informations>.
 
 A propos de Git, je me suis plus à l'aise avec cet outil, add, push, commit, et tag etc.
+
+Le 25/10/2023 - #Séance 6
+
+Projet: après de longues hésitation et discusssion, nous avons adopté le mot "désinformation" (en anglais: disinformation, et en chinois: 虚假信息. Ce mot nous intéresse et que nous trouvons qu'il correspond bien à la situtauon actuelle (actualités). Après avoir choisi le mot, nous avons commencé à réfléchir sur le type de sites sur lequel nous allons travailler. Nous avons choisi les sites de presses.
+Ensuite, pendant le cours, on a fait un mini projet qui est super utile pour le commencement du projet final.Ce mini projet permet de vérifier la validation de chaque lien récolté s'il est OK (HTTP) ou pas, et quel est son encodage (UTF-8) ou autre.
