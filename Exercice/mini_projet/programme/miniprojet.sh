@@ -51,7 +51,7 @@ do
   # Afficher le numéro de ligne, l'URL, le code de réponse HTTP, le résultat (Ok/Not Ok), et l'encodage
 
 
-done < "$url_file" #> url_file_reponse.tsv
+done < "$url_file" > url_file_reponse.tsv
 
 
 #while read -r line; 
