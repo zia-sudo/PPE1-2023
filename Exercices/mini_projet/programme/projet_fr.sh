@@ -15,7 +15,7 @@ if [ ! -f "$url_file" ]; then
 fi
 
 # Définir le nom du fichier HTML de sortie
-output_file="../html/resultats.html"
+output_file="../html/resultats_projet.html"
 
 # Ouvrir le fichier HTML de sortie pour écriture
 {
@@ -69,14 +69,6 @@ EOF
     else
       charset="$encodage"
     fi
-
-    # Déterminer si le lien est utilisable
-    #result=""
-    #if [ "$http_code" -eq 200 ] && [ "$charset" = "UTF-8" ]; then
-      #result="Utilisable"
-    #else
-      #result="Non Utilisable"
-    #fi
 
     # Afficher la ligne du tableau
     cat <<EOF
