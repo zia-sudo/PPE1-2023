@@ -50,3 +50,14 @@ Le 25/10/2023 - #Séance 6
 
 Projet: après de longues hésitation et discusssion, nous avons adopté le mot "désinformation" (en anglais: disinformation, et en chinois: 虚假信息. Ce mot nous intéresse et que nous trouvons qu'il correspond bien à la situtauon actuelle (actualités). Après avoir choisi le mot, nous avons commencé à réfléchir sur le type de sites sur lequel nous allons travailler. Nous avons choisi les sites de presses.
 Ensuite, pendant le cours, on a fait un mini projet qui est super utile pour le commencement du projet final.Ce mini projet permet de vérifier la validation de chaque lien récolté s'il est OK (HTTP) ou pas, et quel est son encodage (UTF-8) ou autre.
+
+Le 08/11/2023 - #Séance 7
+
+Réponses au retour sur le mini_projet:
+Concernant l'utilisation du <<EOF  permet l'inclusion d'un bloc de texte multiline. Il est utilisé pour créer un bloc HTML à partir de la ligne <<EOF. C'est une façon pratique d'inclure du HTML.C'est une syntaxe que j'ai pu trouver en visionnant cette vidéo.
+https://www.youtube.com/watch?app=desktop&v=1Rt84SRap0M
+L'utilisation des {}: Les accolades {} sont utilisées pour grouper plusieurs commandes ensemble, ici, c'est pour regrouper le code HTML dans un seul bloc, pour ensuite le rediriger vers la sortie.
+
+Projet: En me basant sur le mini-projet, j'ai fait un autre programme similaire pour le projet final. J'ai également fini de chercher les 50 urls, pour l'instant, les 50 que j'ai trouvés sont tous en UTF-8 et ont 200 comme code HTTP. Ils sont donc utilisables pour la suite du projet. Puisque j'ai déjà fait l'étape pour transformer le tableau tsv en html. Il ne me reste qu'à analyser le contenu de ces urls.
+
+Cours: en cours, nous avons vu la notion du HTML: les différentes balises (entête, corps, tableaux).
