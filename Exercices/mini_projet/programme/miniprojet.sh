@@ -24,6 +24,7 @@ output_file="../html/resultats.html"
   <!DOCTYPE html>
   <html>
   <head>
+  <meta charset=\"utf-8\" />
   <title>Résultats pour chaque URL</title>
   <style>
     table {
