@@ -19,35 +19,28 @@ output_file="../html/resultats_projet.html"
 
 # Ouvrir le fichier HTML de sortie pour écriture
 {
-  # Initialisation HTML
-  cat <<EOF
-  <!DOCTYPE html>
-  <html>
-  <head>
-  <meta charset=\"utf-8\" />
-  <title>Résultats pour chaque URL</title>
-  <style>
-    table {
-      border-collapse: collapse;
-      width: 100%;
-    }
-    th, td {
-      border: 1px solid black;
-      padding: 8px;
-      text-align: left;
-    }
-  </style>
-  </head>
-  <body>
-  <h1>HTML Résultats URL</h1>
-  <table>
-  <tr>
-  <th>Ligne</th>
-  <th>URL</th>
-  <th>Code HTTP</th>
-  <th>Encodage</th>
-  </tr>
-EOF
+  # Début du code HTML
+  cat <<HTML
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Tableau des URLS</title>
+</head>
+<body>
+  <!-- Début du tableau -->
+  <h1 style="text-align: center;">Tableau des URLs $(basename "$url_file")</h1>
+  <table border="1" style="margin: auto;">
+    <thead>
+      <tr>
+        <th>ligne</th>
+        <th>code HTTP</th>
+        <th>URL</th>
+        <th>encodage</th>
+      </tr>
+    </thead>
+    <tbody>
+HTML
 
   lineno=0  # Initialisation du compteur de lignes
 
@@ -72,22 +65,24 @@ EOF
     fi
 
     # Afficher la ligne du tableau
-    cat <<EOF
-    <tr>
-    <td>$lineno</td>
-    <td><a href="$line">$line</a></td>
-    <td>$http_code</td>
-    <td>$charset</td>
-    </tr>
-EOF
+    cat <<HTML
+      <tr>
+        <td>$lineno</td>
+        <td>$http_code</td>
+        <td><a href="$line">$line</a></td>
+        <td>$charset</td>
+      </tr>
+HTML
 
   done < "$url_file"
 
   # Fin du tableau et de la page HTML
-  echo "</table>"
-  echo "</body>"
-  echo "</html>"
-
+  cat <<HTML
+    </tbody>
+  </table>
+</body>
+</html>
+HTML
 } > "$output_file"
 
 echo "Les résultats ont été enregistrés dans $output_file"
