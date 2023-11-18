@@ -1,45 +1,95 @@
-<html>
-	<head>
-		<meta charset="UTF-8" />
-		<title>Programmation et Projet encadré</title>
-	</head>
+<!DOCTYPE html>
+<html lang="fr">
 
-	<body>
-		<img src="https://upload.wikimedia.org/wikipedia/commons/6/64/Collage_of_Six_Cats-02.jpg" alt="Les chats domineront le monde." title="Les chats domineront le monde. Source de l'image : Wikipedia, licence CC BY-NC-SA 3.0" style="max-width: 50%; height: auto;">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mini-Projet de Programmation en Groupe</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <style>
+        body {
+            font-family: 'Verdana', sans-serif;
+            background-color: #f7f7f7;
+            color: #333;
+            margin-top: 3.5rem;
+            font-size: 16px;
+        }
 
-		<h1>Entête de niveau 1</h1> <!-- Comme les logiciels de traitements de texte, on a des titres de différents niveaux, de 1 à 6 -->
-
-		<!-- La balise <p> permet de créer des paragaphes, où doit aller la majorité du texte. -->
-		<p>Du texte dans un paragraphe.</p>
-		<p>Le paragraphe d’après.</p>
-
-		<p>
-			Un lien : <a href="www.perdu.com">Cliquer ici.</a> <!-- la balise <a></a> permet d’ajouter des (hyper)liens. -->
-		</p>
+        header {
+            background-color: #355b8a;
+            padding: 2rem 0;
+            text-align: center;
+        }
 		
-		<p>La balise <b>b</b> permet de mettre du texte en gras.</p>
-		<p>La balise <i>i</i> permet de mettre du texte en italique.</p>
-		<p>La balise <em>em</em> permet de mettre du texte en emphase.</p>
-		<p>La balise <strong>strong</strong> permet de mettre du texte en avant.</p>
-		
-		<ul> <!-- ul pour les liste à point -->
-			<li>élément 1</li>
-			<li>élément B</li>
-		</ul>
+        main {
+            margin: 2rem;
+        }
 
-		<ol> <!-- ol pour les liste numérotées -->
-			<li>élément 1</li>
-			<li>élément B</li>
-		</ol>
+        .section-title {
+            color: #355b8a;
+            font-size: 2.5rem;
+            text-align: center;
+            margin-bottom: 1.5rem;
+        }
 
-		<p>Écrire certains caractères demande des entités HTML :</p>		
-		<ul> 
-			<li><i>&amp;amp;</i> pour écrire &amp;</li>
-			<li><i>&amp;lt;</i> pour écrire &lt;</li>
-			<li><i>&amp;gt;</i> pour écrire &gt;</li>
-		</ul>
+        .content-column {
+            border-left: 5px solid #355b8a;
+            padding-left: 2rem;
+        }
 
-		<!-- on peut insérer du CSS directement dans la balise pour en changer le style -->
-		<p style="color:red; background-color:black;">Paragraphe rouge sur fond noir.</p>
-	</body>
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .navbar-item:hover {
+            background-color: #355b8a;
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar is-light is-fixed-top">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="#accueil">
+                <img src="images/Projet.png" alt="Logo">
+            </a>
+            <div class="navbar-burger burger" data-target="navbarMenu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+
+        <div id="navbarMenu" class="navbar-menu">
+            <div class="navbar-start">
+                <a class="navbar-item" href="#accueil">Accueil</a>
+                <a class="navbar-item" href="resultats_projet.html">Tableau</a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <h1 class="section-title" id="introduction">Mini-Projet de Programmation en Groupe</h1>
+        <div class="columns">
+            <div class="column is-three-fifths is-offset-one-fifth">
+                <p>
+                    Le mini-projet a pour objectif de permettre à chaque individu de participer à toutes les étapes essentielles de chaque projet, offrant ainsi une opportunité d'initiation en douceur au travail en groupe. Cette approche favorise la compréhension complète du processus de projet tout en préparant les participants aux aspects collaboratifs du travail en équipe.
+                </p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Votre Nom. Tous droits réservés.</p>
+    </footer>
+</body>
+
 </html>

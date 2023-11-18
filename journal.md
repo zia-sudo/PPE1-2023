@@ -61,3 +61,9 @@ L'utilisation des {}: Les accolades {} sont utilisées pour grouper plusieurs co
 Projet: En me basant sur le mini-projet, j'ai fait un autre programme similaire pour le projet final. J'ai également fini de chercher les 50 urls, pour l'instant, les 50 que j'ai trouvés sont tous en UTF-8 et ont 200 comme code HTTP. Ils sont donc utilisables pour la suite du projet. Puisque j'ai déjà fait l'étape pour transformer le tableau tsv en html. Il ne me reste qu'à analyser le contenu de ces urls.
 
 Cours: en cours, nous avons vu la notion du HTML: les différentes balises (entête, corps, tableaux).
+
+Le 15/11/2023 - #Séance 8
+
+Projet: J'ai fini de vérifier tous les urls,il y avait deux urls qui n'étaient pas conformes (HTTP 403), et maintenant normalment ils ont tous un code HTTP 200 et sont encodés en UTF-8. J'ai essayé de trouver d'autres URLS qui sont encore plus pertinents avec le sujet "désinfromation".Tous les liens sont prêts et ont été mis sur le dépôt Git de groupe. Sur le git du groupe, j'ai également mis le tableau qui va avec.Nous avons commencé à faire le site pour le rendu final puis que nous avons déjà l'introduction qui est faite et les tableaux du chinois et de l'anglais.
+
+Cours: nous avons revu les différentes balises qu'il faut utiliser pour créer un tableau puis nous avons créé un site pour le dépôt Git. Nous avons également parlé du CSS.
