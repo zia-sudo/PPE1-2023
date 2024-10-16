@@ -72,3 +72,6 @@ Le 22/11/2023 - #Séance 9
 Le travail de la semaine est centré sur l'exploration des pages HTML. Notre objectif était d'extraire le contenu textuel, de comptabiliser les occurrences, d'isoler les contextes pertinents, et enfin de créer un concordancier. Nous avons repris la structure du script miniprojet puis nous y avons ajouté les différentes modications. Certains liens trouvés la semaine dernière ne sont plus accessibles, nous avons donc dû les remplacer par d'autres qui sont accessibles et possèdent un encodage UTF-8.
 Cependant, nous avons également rencontré un problème au niveau de la syntaxe, car certains symboles ne peuvent pas être utilisés dans le système Linux. Par exemple, la syntaxe "if [[ $lang = 'zh' ]]" a posé des problèmes, et nous avons dû ajuster cette partie du code en utilisant "if [ "$lang" = 'zh' ]" pour assurer la compatibilité avec le système Linux.
 Pour le script, en raison de la spécificité de la langue chinoise, nous avons dû diviser le script n deux parties distinctes, une dédiée au chinois et l'autre à l'anglais et au français. 
+
+le 16 octobre 2024
+Juste un changement
